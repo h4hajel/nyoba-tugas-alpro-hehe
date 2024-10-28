@@ -1,0 +1,35 @@
+/* Nama: Intan Nurlistiyani
+   NIM : 102022400005
+   Kelas: SI4808*/
+
+public class Java_Percabangan 
+{
+  public static void main(String[] args) 
+  {
+    System.out.println("Indeks Prestasi Semester");
+    System.out.println("========================");
+    double IPS0005 = 2.3;
+
+    System.out.println("IPS Anda: " + IPS0005);
+    if (IPS0005 >= 3.5 && IPS0005 <= 4)
+    {
+      System.out.println("Selamat! Pertahankan IPS mu!");
+    } 
+    else if (IPS0005 >= 3 && IPS0005 < 3.5)
+    {
+      System.out.println("IPS baik, tingkatkan di semester depan!");
+    } 
+    else if (IPS0005 >= 2.5 && IPS0005 < 3)
+    {
+      System.out.println("IPS anda cukup baik");
+    } 
+    else if (IPS0005 >= 1 && IPS0005 < 2.5)
+    {
+      System.out.println("IPS anda rendah, tingkatkan di semester depan");
+    } 
+    else 
+    {
+      System.out.println("error, masukkan ips yang sesuai!");
+    }
+  }
+}
