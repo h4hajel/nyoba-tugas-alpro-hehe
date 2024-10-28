@@ -1,0 +1,16 @@
+# Nama : Intan Nurlistiyani
+# NIM  : 102022400005
+# Kelas: SI4808
+
+IPS0005 = 2.3
+print("IPS anda: " + str(IPS0005))
+if IPS0005 >= 3.5 and IPS0005 <= 4:
+  print("Selamat! Pertahankan IPS mu!")
+elif IPS0005 >= 3 and IPS0005 < 3.5:
+  print("IPS baik, tingkatkan di semester depan!")
+elif IPS0005 >= 2.5 and IPS0005 < 3:
+  print("IPS anda cukup baik")
+elif IPS0005 >= 1 and IPS0005 < 2.5:
+  print("IPS anda rendah, tingkatkan di semester depan!")
+else:
+  print("error, masukkan ips yang sesuai!")
